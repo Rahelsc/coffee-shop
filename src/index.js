@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HeaderCoffee from "./header-coffee"
+import FooterCoffee from './footer-coffee'
 
 ReactDOM.render(
   <React.StrictMode>
+    <HeaderCoffee/>
     <App />
+    <FooterCoffee/>
   </React.StrictMode>,
   document.getElementById('root')
 );
